@@ -1,0 +1,118 @@
+\documentclass[11pt,a4paper,oneside]{book}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+\geometry{margin=3cm}
+
+\title{Titre de la these}
+\author{Prenom Nom}
+\date{\today}
+
+\begin{document}
+
+\frontmatter
+
+\pagenumbering{gobble}
+
+\begin{titlepage}
+  \centering
+  {\Large Universite / Ecole doctorale\par}
+  \vspace{2cm}
+  {\Huge\bfseries Titre de la these\par}
+  \vspace{1cm}
+  {\Large Manuscrit de these\par}
+  \vspace{2cm}
+  {\Large Prenom Nom\par}
+  \vfill
+  Directeur ou directrice de these : Prenom Nom\par
+  Laboratoire : Nom du laboratoire\par
+  \vspace{1cm}
+  {\large \today\par}
+\end{titlepage}
+
+\cleardoublepage
+\pagenumbering{roman}
+
+\chapter*{Remerciements}
+
+Texte des remerciements.
+
+\chapter*{Resume}
+
+Resume de la these en francais.
+
+\chapter*{Abstract}
+
+Thesis abstract in English.
+
+\tableofcontents
+
+\mainmatter
+
+\chapter{Introduction}
+
+Presenter le contexte, la problematique, les objectifs et le plan du manuscrit.
+
+\chapter{Etat de l'art}
+
+Synthese de la litterature et positionnement du sujet.
+
+\chapter{Methodes}
+
+Description des donnees, outils, hypotheses et protocoles experimentaux.
+
+\section{Modele}
+
+\begin{equation}
+  y = f(x) + \varepsilon
+\end{equation}
+
+\chapter{Resultats}
+
+Presentation des resultats principaux.
+
+\begin{table}[h]
+  \centering
+  \caption{Exemple de tableau.}
+  \begin{tabular}{lcc}
+    \toprule
+    Experience & Mesure 1 & Mesure 2 \\
+    \midrule
+    A & 1.2 & 3.4 \\
+    B & 1.5 & 3.8 \\
+    \bottomrule
+  \end{tabular}
+  \label{tab:exemple}
+\end{table}
+
+\chapter{Discussion}
+
+Interpretation des resultats, limites et implications.
+
+\chapter{Conclusion}
+
+Bilan des contributions et perspectives.
+
+\backmatter
+
+\begin{thebibliography}{9}
+
+\bibitem{exemple}
+Auteur, A.
+\newblock Titre de la reference.
+\newblock \emph{Journal}, 1(1), 1--10, 2026.
+
+\end{thebibliography}
+
+\end{document}
+

@@ -1,0 +1,77 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+\geometry{margin=2.5cm}
+
+\title{Article title}
+\author{First Last\\Institution\\\texttt{email@example.com}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This abstract summarizes the context, method, main results, and contribution of the article in a few sentences.
+\end{abstract}
+
+\section{Introduction}
+
+Present the scientific problem, the literature context, and the main contribution of the article.
+
+\section{Method}
+
+Describe the data, assumptions, and method used.
+
+\begin{equation}
+  y = f(x) + \varepsilon
+\end{equation}
+
+\section{Results}
+
+Present the results concisely.
+
+\begin{table}[h]
+  \centering
+  \caption{Example results table.}
+  \begin{tabular}{lcc}
+    \toprule
+    Method & Precision & Recall \\
+    \midrule
+    Baseline & 0.82 & 0.78 \\
+    Proposed & 0.90 & 0.86 \\
+    \bottomrule
+  \end{tabular}
+  \label{tab:results}
+\end{table}
+
+\section{Discussion}
+
+Interpret the results, their limitations, and their scope.
+
+\section{Conclusion}
+
+Restate the main contribution and open future perspectives.
+
+\begin{thebibliography}{9}
+
+\bibitem{example}
+Author, A.
+\newblock Reference title.
+\newblock \emph{Journal}, 1(1), 1--10, 2026.
+
+\end{thebibliography}
+
+\end{document}
+

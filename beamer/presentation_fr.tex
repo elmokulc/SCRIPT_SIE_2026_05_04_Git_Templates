@@ -1,0 +1,85 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+\title[Titre court]{Titre de la presentation}
+\subtitle{Sous-titre optionnel}
+\author{Prenom Nom}
+\institute{Institution}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Plan}
+  \tableofcontents
+\end{frame}
+
+\section{Contexte}
+
+\begin{frame}{Motivation}
+  \begin{itemize}
+    \item Presenter le probleme.
+    \item Expliquer pourquoi il est important.
+    \item Annoncer l'approche proposee.
+  \end{itemize}
+\end{frame}
+
+\section{Methode}
+
+\begin{frame}{Approche}
+  \begin{block}{Idee principale}
+    Decrire la methode en une ou deux phrases.
+  \end{block}
+
+  \begin{enumerate}
+    \item Etape 1.
+    \item Etape 2.
+    \item Etape 3.
+  \end{enumerate}
+\end{frame}
+
+\section{Resultats}
+
+\begin{frame}{Resultats principaux}
+  \begin{table}
+    \centering
+    \begin{tabular}{lcc}
+      \toprule
+      Methode & Score & Temps \\
+      \midrule
+      Reference & 0.80 & 12 s \\
+      Proposee & 0.91 & 9 s \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+\end{frame}
+
+\section{Conclusion}
+
+\begin{frame}{Conclusion}
+  \begin{itemize}
+    \item Resume du message principal.
+    \item Limites de l'etude.
+    \item Perspectives.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \centering
+  \Large Merci pour votre attention.
+\end{frame}
+
+\end{document}
+

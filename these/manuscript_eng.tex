@@ -1,0 +1,118 @@
+\documentclass[11pt,a4paper,oneside]{book}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+\geometry{margin=3cm}
+
+\title{Thesis title}
+\author{First Last}
+\date{\today}
+
+\begin{document}
+
+\frontmatter
+
+\pagenumbering{gobble}
+
+\begin{titlepage}
+  \centering
+  {\Large University / Doctoral school\par}
+  \vspace{2cm}
+  {\Huge\bfseries Thesis title\par}
+  \vspace{1cm}
+  {\Large Thesis manuscript\par}
+  \vspace{2cm}
+  {\Large First Last\par}
+  \vfill
+  Supervisor: First Last\par
+  Laboratory: Laboratory name\par
+  \vspace{1cm}
+  {\large \today\par}
+\end{titlepage}
+
+\cleardoublepage
+\pagenumbering{roman}
+
+\chapter*{Acknowledgements}
+
+Acknowledgements text.
+
+\chapter*{Abstract}
+
+Thesis abstract in English.
+
+\chapter*{Resume}
+
+Resume de la these en francais.
+
+\tableofcontents
+
+\mainmatter
+
+\chapter{Introduction}
+
+Present the context, research problem, objectives, and manuscript outline.
+
+\chapter{State of the Art}
+
+Synthesize the literature and position the research topic.
+
+\chapter{Methods}
+
+Describe the data, tools, assumptions, and experimental protocols.
+
+\section{Model}
+
+\begin{equation}
+  y = f(x) + \varepsilon
+\end{equation}
+
+\chapter{Results}
+
+Present the main results.
+
+\begin{table}[h]
+  \centering
+  \caption{Example table.}
+  \begin{tabular}{lcc}
+    \toprule
+    Experiment & Measure 1 & Measure 2 \\
+    \midrule
+    A & 1.2 & 3.4 \\
+    B & 1.5 & 3.8 \\
+    \bottomrule
+  \end{tabular}
+  \label{tab:example}
+\end{table}
+
+\chapter{Discussion}
+
+Interpret the results, limitations, and implications.
+
+\chapter{Conclusion}
+
+Summarize the contributions and future perspectives.
+
+\backmatter
+
+\begin{thebibliography}{9}
+
+\bibitem{example}
+Author, A.
+\newblock Reference title.
+\newblock \emph{Journal}, 1(1), 1--10, 2026.
+
+\end{thebibliography}
+
+\end{document}
+

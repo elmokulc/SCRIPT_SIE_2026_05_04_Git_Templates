@@ -1,0 +1,77 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+\geometry{margin=2.5cm}
+
+\title{Titre de l'article}
+\author{Prenom Nom\\Institution\\\texttt{email@example.com}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Cet abstract resume le contexte, la methode, les resultats principaux et la contribution de l'article en quelques phrases.
+\end{abstract}
+
+\section{Introduction}
+
+Presenter le probleme scientifique, le contexte bibliographique et la contribution principale de l'article.
+
+\section{Methode}
+
+Decrire les donnees, les hypotheses et la methode utilisee.
+
+\begin{equation}
+  y = f(x) + \varepsilon
+\end{equation}
+
+\section{Resultats}
+
+Presenter les resultats de maniere concise.
+
+\begin{table}[h]
+  \centering
+  \caption{Exemple de tableau de resultats.}
+  \begin{tabular}{lcc}
+    \toprule
+    Methode & Precision & Rappel \\
+    \midrule
+    Reference & 0.82 & 0.78 \\
+    Proposee & 0.90 & 0.86 \\
+    \bottomrule
+  \end{tabular}
+  \label{tab:resultats}
+\end{table}
+
+\section{Discussion}
+
+Interpretez les resultats, leurs limites et leur portee.
+
+\section{Conclusion}
+
+Rappeler la contribution principale et ouvrir sur les perspectives.
+
+\begin{thebibliography}{9}
+
+\bibitem{exemple}
+Auteur, A.
+\newblock Titre de la reference.
+\newblock \emph{Journal}, 1(1), 1--10, 2026.
+
+\end{thebibliography}
+
+\end{document}
+
